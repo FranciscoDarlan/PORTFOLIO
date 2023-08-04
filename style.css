@@ -10,7 +10,7 @@
     width: 100%;
     background-image: url(./img/fundo_ti-removebg-preview.png);
     background-repeat: no-repeat;
-    background-position: 1000px;
+    background-position: 850px;
     background-color: #191919;
   }
 
@@ -54,7 +54,7 @@
 
   h1{
     color: white;
-    font-size: 60px;
+    font-size: 10vh;
   }
 
   h1 span{
@@ -69,9 +69,8 @@
   section{
     display: flex;
     align-items: center;
-    padding: 60px 0px;
+    padding: 60px 67px;
     background-color: #000000;
-    margin-right: 30px;
   }
 
   section img{
@@ -111,4 +110,61 @@
 
   section div{
     padding-left: 50px;
+  }
+
+  .Projetos{
+    background-color: #191919;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .Projetos h2{
+    color: white;
+    font-size: 75px;
+    text-align: center;
+  }
+
+  .card{
+    background-color: black;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: center;
+  }
+
+  .card img{
+    height: 100px;
+  }
+
+  .card h5{
+    color: white;
+    font-size: 24px;
+  }
+
+  .card p{
+    color: rosybrown;
+    margin: 30px 0px;
+  }
+
+  .card a{
+    color: white;
+    background-color: #f9004d;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .card a:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    transition: 0.8s;
+  }
+
+  .card-projetos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 50px;
   }
