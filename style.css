@@ -118,6 +118,14 @@
     padding-bottom: 100px;
   }
 
+  .card-projetos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: white;
+  }
+
   .Projetos h2{
     color: white;
     font-size: 75px;
@@ -162,11 +170,48 @@
     transition: 0.8s;
   }
 
-  .card-projetos{
+  footer{
+    background-color: #000000;
+    padding-top: 100px;
+    padding-bottom: 120px;
     display: flex;
-    justify-content: space-around;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    background-color: black;
-    color: white;
+    align-items: center;
+    flex-direction: column;
   }
+  
+  footer h5{
+    color: white;
+    font-size: 30px;
+  }
+
+  footer p{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 14px;
+  }
+
+  .social{
+    display: flex;
+    gap: 20px;
+  }
+
+  .social img{
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .social a {
+    background-color: #f9004d;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+  }
+   .social a:hover{
+      transform: scale(1.3);
+      transition: 0.8s;
+   }
